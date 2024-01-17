@@ -7,7 +7,7 @@ El proyecto implementa el modelo de MVVM. La vista se comunica con los datos a t
 Soporte en español y en inglés.
 
 ### - Primera vista. Configuración de la partida
-
+<br>
 
 <p align="center">
 <img src="https://github.com/CBocka/GuessNumber/assets/156449965/1cd61d19-9867-4bfb-bed8-5c2d7b69a2ee" height="450" width="220" >
