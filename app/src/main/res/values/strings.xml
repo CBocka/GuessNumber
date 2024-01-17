@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">GuessNumber</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="config_fragment_label">Datos de la partida</string>
+    <string name="play_fragment_label">Adivina el número</string>
+    <string name="end_game_fragment_label">Fin del juego</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <!-- Strings used for fragment_main -->
+    <string name="tie_player_name_hint">Nombre del jugador</string>
+    <string name="tie_tries_hint">Número de intentos disponibles</string>
+    <string name="btn_play_text">¡A jugar!</string>
+    <string name="tie_player_name_error">Debes introducir un nombre</string>
+    <string name="tie_tries_empty_error">Debes introducir el número de intentos</string>
+    <string name="tie_tries_format_error">Debes introducir un número entero válido</string>
+    <string name="tie_tries_not_enough_error">¡Intenta al menos una vez!</string>
+
+    <!-- Strings used for fragment_play -->
+    <string name="tvTries_text">Intentos Disponibles: </string>
+    <string name="til_try_hint">Prueba un número entre 0 y 100</string>
+    <string name="btnTry_text">¡Prueba!</string>
+    <string name="btnClear_text">Reset</string>
+    <string name="til_try_format_error">Introduce un número entero válido</string>
+    <string name="til_try_empty_error">Debes introducir un número entre 0 y 100</string>
+    <string name="dialog_title">¡Has fallado!</string>
+    <string name="dialog_result_bigger_text">¡Ups! El número que buscas es mayor</string>
+    <string name="dialog_result_lower_text">Oh… el número que buscas es menor</string>
+
+    <!-- Strings used for fragment_end_game -->
+    <string name="tvResult_winning_text">¡Ganaste!</string>
+    <string name="tvResult_losing_text">¡Has perdido!</string>
+    <string name="btnPlayAgain_text">Jugar otra vez</string>
+</resources>

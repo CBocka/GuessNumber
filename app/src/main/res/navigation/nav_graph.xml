@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/configFragment">
+    <fragment
+        android:id="@+id/configFragment"
+        android:name="com.cbocka.guessnumber.ui.ConfigFragment"
+        tools:layout="@layout/fragment_config"
+        android:label="@string/config_fragment_label" >
+        <action
+            android:id="@+id/action_configFragment_to_playFragment"
+            app:destination="@id/playFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/playFragment"
+        android:name="com.cbocka.guessnumber.ui.PlayFragment"
+        android:label="@string/play_fragment_label"
+        tools:layout="@layout/fragment_play" >
+        <action
+            android:id="@+id/action_playFragment_to_endGameFragment"
+            app:destination="@id/endGameFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/endGameFragment"
+        android:name="com.cbocka.guessnumber.ui.EndGameFragment"
+        android:label="@string/end_game_fragment_label"
+        tools:layout="@layout/fragment_end_game" >
+        <action
+            android:id="@+id/action_endGameFragment_to_configFragment"
+            app:destination="@id/configFragment"
+            app:popUpTo="@id/configFragment"
+            app:popUpToInclusive="false" />
+    </fragment>
+</navigation>
