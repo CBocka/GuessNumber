@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">GuessNumber</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="config_fragment_label">Game Configuration</string>
+    <string name="play_fragment_label">Guess the Number</string>
+    <string name="end_game_fragment_label">Game Finished</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <!-- Strings used for fragment_main -->
+    <string name="tie_player_name_hint">Player\'s name</string>
+    <string name="tie_tries_hint">Available attempts</string>
+    <string name="btn_play_text">Lets play!</string>
+    <string name="tie_player_name_error">You must enter a name</string>
+    <string name="tie_tries_empty_error">You must enter the number of attempts</string>
+    <string name="tie_tries_format_error">You must enter a valid number</string>
+    <string name="tie_tries_not_enough_error">Try at least once!</string>
+
+    <!-- Strings used for fragment_play -->
+    <string name="tvTries_text">Available attempts: </string>
+    <string name="til_try_hint">Try a number between 0 and 100</string>
+    <string name="btnTry_text">Try!</string>
+    <string name="til_try_format_error">You must enter a valid integer number</string>
+    <string name="til_try_empty_error">You must enter a number between 0 and 100</string>
+    <string name="dialog_title">You have failed!</string>
+    <string name="dialog_result_bigger_text">Oops! The number you are looking for is bigger</string>
+    <string name="dialog_result_lower_text">Oh… the number you are looking for is lower</string>
+
+    <!-- Strings used for fragment_end_game -->
+    <string name="tvResult_winning_text">You win!</string>
+    <string name="tvResult_losing_text">You lose!</string>
+    <string name="btnPlayAgain_text">Play Again</string>
+</resources>
